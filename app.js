@@ -6,10 +6,14 @@ const onerror = require('koa-onerror')
 const bodyparser = require('koa-bodyparser')
 const logger = require('koa-logger')
 const log4js= require('log4js')
+const log4js_config=require('./log/log4js.json')
 const index = require('./routes/index')
 const users = require('./routes/users')
-https://blog.csdn.net/cdnight/article/details/50857268
-log4js.configure(__dirname+'/log/log4js.json');
+/*
+https://blog.csdn.net/cdnight/article/details/50857268*/
+log4js.configure(log4js_config);
+var log = log4js.getLogger('log_file'); 
+log.debug('fuck you');
 // error handler
 onerror(app)
 
