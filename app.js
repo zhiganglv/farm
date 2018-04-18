@@ -5,10 +5,11 @@ const json = require('koa-json')
 const onerror = require('koa-onerror')
 const bodyparser = require('koa-bodyparser')
 const logger = require('koa-logger')
-
+const log4js= require('log4js')
 const index = require('./routes/index')
 const users = require('./routes/users')
-
+https://blog.csdn.net/cdnight/article/details/50857268
+log4js.configure(__dirname+'/log/log4js.json');
 // error handler
 onerror(app)
 

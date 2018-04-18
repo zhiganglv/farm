@@ -9,5 +9,7 @@ router.get('/', function (ctx, next) {
 router.get('/bar', function (ctx, next) {
   ctx.body = 'this is a users/bar response'
 })
-
+router.post('/bar', function (ctx, next) {
+  ctx.body = JSON.stringify(ctx);
+})
 module.exports = router

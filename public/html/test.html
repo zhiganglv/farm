@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,Chrome=1.0"/>  
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+	function send(){
+		console.log('ba')
+		eval($('#textarea').val());
+		var data=data||{a:'abc'};
+		$.ajax({
+			  url:$('#url').val()||'/users/bar',
+			  data:data,
+              type: 'post',
+              success: function(res) {
+              	console.log(res)
+              },
+              error: function(err) {  
+              	console.log(err) 
+              }
+		})
+	}
+</script>
+</head>
+<body>
+ <p>url:<input type="text" id="url" style="width: 100%;"></p>
+ <p>data:</p>
+ <textarea name="" id="textarea" cols="30" rows="10">
+ 	
+ </textarea>
+ <p onclick="send()">send</p>
+</body>
+</html>
