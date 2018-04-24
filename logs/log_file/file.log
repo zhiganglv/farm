@@ -1,0 +1,90 @@
+[2018-04-18 23:02:09.884] [DEBUG] log_file - fuck you
+[2018-04-18 23:04:14.876] [DEBUG] log_file - fuck you
+[2018-04-18 23:06:50.844] [DEBUG] log_file - fuck you
+[2018-04-18 23:08:45.422] [DEBUG] log_file - fuck you
+[2018-04-18 23:10:08.905] [DEBUG] log_file - fuck you
+[2018-04-18 23:10:30.164] [DEBUG] log_file - fuck you
+[2018-04-18 23:17:27.893] [DEBUG] log_file - ctx { request: 
+   { method: 'POST',
+     url: '/users/bar',
+     header: 
+      { host: '127.0.0.1:3000',
+        connection: 'keep-alive',
+        'content-length': '5',
+        accept: '*/*',
+        origin: 'http://127.0.0.1:3000',
+        'x-requested-with': 'XMLHttpRequest',
+        'user-agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+        'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+        referer: 'http://127.0.0.1:3000/html/test.html',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/users/bar',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2018-04-18 23:17:27.899] [DEBUG] log_file - next { request: 
+   { method: 'POST',
+     url: '/users/bar',
+     header: 
+      { host: '127.0.0.1:3000',
+        connection: 'keep-alive',
+        'content-length': '5',
+        accept: '*/*',
+        origin: 'http://127.0.0.1:3000',
+        'x-requested-with': 'XMLHttpRequest',
+        'user-agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+        'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+        referer: 'http://127.0.0.1:3000/html/test.html',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/users/bar',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2018-04-18 23:22:25.364] [DEBUG] log_file - ctx { request: 
+   { method: 'POST',
+     url: '/users/bar',
+     header: 
+      { host: '127.0.0.1:3000',
+        connection: 'keep-alive',
+        'content-length': '5',
+        accept: '*/*',
+        origin: 'http://127.0.0.1:3000',
+        'x-requested-with': 'XMLHttpRequest',
+        'user-agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+        'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+        referer: 'http://127.0.0.1:3000/html/test.html',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/users/bar',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2018-04-18 23:22:25.365] [DEBUG] log_file - next { request: 
+   { method: 'POST',
+     url: '/users/bar',
+     header: 
+      { host: '127.0.0.1:3000',
+        connection: 'keep-alive',
+        'content-length': '5',
+        accept: '*/*',
+        origin: 'http://127.0.0.1:3000',
+        'x-requested-with': 'XMLHttpRequest',
+        'user-agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+        'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+        referer: 'http://127.0.0.1:3000/html/test.html',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/users/bar',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
